@@ -13,6 +13,10 @@
 		84BBFDB1278DF0E7007715FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BBFDAF278DF0E7007715FC /* Main.storyboard */; };
 		84BBFDB3278DF0E9007715FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BBFDB2278DF0E9007715FC /* Assets.xcassets */; };
 		84BBFDB6278DF0E9007715FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BBFDB4278DF0E9007715FC /* LaunchScreen.storyboard */; };
+		84BBFDBE278DFE2E007715FC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBFDBD278DFE2E007715FC /* DetailsViewController.swift */; };
+		84BBFDEC278E0B73007715FC /* nssl0051.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84BBFDE9278E0B73007715FC /* nssl0051.jpeg */; };
+		84BBFDED278E0B73007715FC /* nssl0049.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84BBFDEA278E0B73007715FC /* nssl0049.jpeg */; };
+		84BBFDEE278E0B73007715FC /* nssl0091.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84BBFDEB278E0B73007715FC /* nssl0091.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		84BBFDB2278DF0E9007715FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BBFDB5278DF0E9007715FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BBFDB7278DF0E9007715FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BBFDBD278DFE2E007715FC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		84BBFDE9278E0B73007715FC /* nssl0051.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpeg; sourceTree = "<group>"; };
+		84BBFDEA278E0B73007715FC /* nssl0049.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpeg; sourceTree = "<group>"; };
+		84BBFDEB278E0B73007715FC /* nssl0091.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				84BBFDA9278DF0E7007715FC /* AppDelegate.swift */,
 				84BBFDAB278DF0E7007715FC /* SceneDelegate.swift */,
 				84BBFDAD278DF0E7007715FC /* ViewController.swift */,
+				84BBFDBD278DFE2E007715FC /* DetailsViewController.swift */,
 				84BBFDAF278DF0E7007715FC /* Main.storyboard */,
 				84BBFDB2278DF0E9007715FC /* Assets.xcassets */,
 				84BBFDB4278DF0E9007715FC /* LaunchScreen.storyboard */,
 				84BBFDB7278DF0E9007715FC /* Info.plist */,
+				84BBFDCA278E0936007715FC /* Content */,
 			);
 			path = StormViewer;
+			sourceTree = "<group>";
+		};
+		84BBFDCA278E0936007715FC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				84BBFDEA278E0B73007715FC /* nssl0049.jpeg */,
+				84BBFDE9278E0B73007715FC /* nssl0051.jpeg */,
+				84BBFDEB278E0B73007715FC /* nssl0091.jpeg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BBFDB6278DF0E9007715FC /* LaunchScreen.storyboard in Resources */,
+				84BBFDEE278E0B73007715FC /* nssl0091.jpeg in Resources */,
+				84BBFDED278E0B73007715FC /* nssl0049.jpeg in Resources */,
 				84BBFDB3278DF0E9007715FC /* Assets.xcassets in Resources */,
 				84BBFDB1278DF0E7007715FC /* Main.storyboard in Resources */,
+				84BBFDEC278E0B73007715FC /* nssl0051.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +164,7 @@
 				84BBFDAE278DF0E7007715FC /* ViewController.swift in Sources */,
 				84BBFDAA278DF0E7007715FC /* AppDelegate.swift in Sources */,
 				84BBFDAC278DF0E7007715FC /* SceneDelegate.swift in Sources */,
+				84BBFDBE278DFE2E007715FC /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
